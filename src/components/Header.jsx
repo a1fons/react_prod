@@ -1,4 +1,4 @@
-export default function Navbar() {
+export default function Header() {
     return(
             <header className="hero" style={{backgroundColor: '#05401C'}}>                
                 <nav className="navbar">

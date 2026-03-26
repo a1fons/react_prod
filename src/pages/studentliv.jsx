@@ -15,7 +15,7 @@ export default function Student() {
                     man alltid jobba på kårhuset origo där man dels får erfarenheter och vänner för livet.
                 </p> 
             </div>
-            <img  src="images/caps.JPG" alt="bild"/>
+            <img  src="../assets/caps.JPG" alt="bild"/>
         </div>
 
         <div className="container-info">
@@ -145,7 +145,9 @@ export default function Student() {
                     restaurangkök och bedriver  efter-plugget-pubverksamhet varje tisdag samt 
                     nattklubb fredagar och  lördagar. Självklart så har vi ett stort och 
                     varierat utbud av mat och  dryck. </p>
-                <button onClick="window.location.href='origo.html'" className="origo-button"> Info </button>
+                <button onClick={() => window.location.href = '/origo'}>
+                    Info
+                </button>
             </div>
             <img  src="../assets/sittning.jpg" alt="bild"/>
         </div>
