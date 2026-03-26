@@ -13,11 +13,11 @@ export default function Home(){
                                 får bra näringslivsanknytning.</p> 
                     <button onClick="showMessage()"> Bli medlem </button>
                 </div>
-                <img  src="images/Karhuset_Origo.jpg" alt="bild"/>
+                <img  src="../assets/Karhuset_Origo.jpg" alt="bild"/>
             </div>
 
             <div className="container-info">
-                <img  src="images/ovve_bild.png" alt="bild"/>
+                <img  src="../assets/ovve_bild.png" alt="bild"/>
                 <div className="container-text">
                     <h3>Studentlivet</h3>
                     <p>NTK är kåren för dig som studerar vid teknisk-naturvetenskaplig fakultet 
@@ -46,7 +46,7 @@ export default function Home(){
                     <button onClick="window.location.href='origo.html'" className="origo-button"> Info </button>
                     
                 </div>
-                <img  src="images/Karhuset_Origo.jpg" alt="bild"/>
+                <img  src="../assets/Karhuset_Origo.jpg" alt="bild"/>
             </div>
         </main>
     )
