@@ -1,7 +1,7 @@
 export default function Footer() {
     return(
         <main>
-            <img id="footer_img" src="../assets/Sinus_vag_svart.png" alt="Sinus_vag"/>
+            <img id="footer_img" src="/assets/Sinus_vag_svart.png" alt="Sinus_vag"/>
             <footer class="footer">
                 <div class="container-info-no-border">
                     <div class="footer-info">

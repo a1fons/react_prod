@@ -1,4 +1,6 @@
 import '../css/studentliv_style.css'
+import { Link } from 'react-router-dom';
+
 
 export default function Student() {
     return (
@@ -15,7 +17,7 @@ export default function Student() {
                     man alltid jobba på kårhuset origo där man dels får erfarenheter och vänner för livet.
                 </p> 
             </div>
-            <img  src="../assets/caps.JPG" alt="bild"/>
+            <img  src="/assets/caps.JPG" alt="bild"/>
         </div>
 
         <div className="container-info">
@@ -29,7 +31,7 @@ export default function Student() {
                 </p>
             </div>
             <video width="640" height="360" controls>
-                <source src="../assets/video_studentliv.mp4" type="video/mp4"/>
+                <source src="/assets/video_studentliv.mp4" type="video/mp4"/>
                 Din webbläsare stödjer inte video.
             </video>
         </div>
@@ -43,8 +45,8 @@ export default function Student() {
                     som vänar just för ovven. 
                 </p>
             </div>
-            <img src="../assets/OVE_grupp_bild.jpg" alt="ove_grupp"/>
-            <img src="../assets/ovve_info.jpg" alt="ovve_info"/>
+            <img src="/assets/OVE_grupp_bild.jpg" alt="ove_grupp"/>
+            <img src="/assets/ovve_info.jpg" alt="ovve_info"/>
             <div>
                 <h3>Bärrande regler</h3>
                 <ul>
@@ -145,11 +147,11 @@ export default function Student() {
                     restaurangkök och bedriver  efter-plugget-pubverksamhet varje tisdag samt 
                     nattklubb fredagar och  lördagar. Självklart så har vi ett stort och 
                     varierat utbud av mat och  dryck. </p>
-                <button onClick={() => window.location.href = '/origo'}>
-                    Info
-                </button>
+                <Link to="/origo">
+                    <button>Info</button>
+                </Link>
             </div>
-            <img  src="../assets/sittning.jpg" alt="bild"/>
+            <img  src="/assets/sittning.jpg" alt="bild"/>
         </div>
         </main>
     )

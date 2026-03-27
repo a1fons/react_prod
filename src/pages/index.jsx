@@ -1,4 +1,6 @@
 import '../css/index_style.css'
+import { Link } from 'react-router-dom';
+
 
 export default function Home(){
         return  (
@@ -11,13 +13,15 @@ export default function Home(){
                                 som möjligt. Detta gör vi bland annat genom att ordna roliga event, 
                                 göra studenternas röster hörda, driva kårhus och se till att studenterna 
                                 får bra näringslivsanknytning.</p> 
-                    <button onClick="showMessage()"> Bli medlem </button>
+                    <button>
+                        Bli medlem
+                    </button>
                 </div>
-                <img  src="../assets/Karhuset_Origo.jpg" alt="bild"/>
+                <img  src="/assets/Karhuset_Origo.jpg" alt="bild"/>
             </div>
 
             <div className="container-info">
-                <img  src="../assets/ovve_bild.png" alt="bild"/>
+                <img  src="/assets/ovve_bild.png" alt="bild"/>
                 <div className="container-text">
                     <h3>Studentlivet</h3>
                     <p>NTK är kåren för dig som studerar vid teknisk-naturvetenskaplig fakultet 
@@ -27,7 +31,9 @@ export default function Home(){
                         får bra näringslivsanknytning. 
                     </p>
                 
-                    <button onClick="window.location.href='studentliv.html'"> Info </button>
+                    <Link to="/studentliv">
+                        <button>Info</button>
+                    </Link>
                 </div>
             </div>
 
@@ -42,11 +48,12 @@ export default function Home(){
                         varierat utbud av mat och  dryck. 
                     </p>
                     
-                    
-                    <button onClick="window.location.href='origo.html'" className="origo-button"> Info </button>
-                    
+                        
+                    <Link to="/origo">
+                        <button>Info</button>
+                    </Link>
                 </div>
-                <img  src="../assets/Karhuset_Origo.jpg" alt="bild"/>
+                <img  src="/assets/Karhuset_Origo.jpg" alt="bild"/>
             </div>
         </main>
     )

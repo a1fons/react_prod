@@ -1,18 +1,20 @@
+import { Link } from 'react-router-dom';
+
 export default function Header() {
     return(
             <header className="hero" style={{backgroundColor: '#05401C'}}>                
                 <nav className="navbar">
                     <div className="logo">
-                        <a href="index.html">
-                            <img src="../assets/Ntk_logo_farg_vit.png" alt="NTK logo"/>
-                        </a>
+                        <Link to="/">
+                        <img src="/assets/Ntk_logo_farg_vit.png" alt="NTK logo" />
+                        </Link>
                     </div>
 
                     <ul className="nav-links" id="navLinks">
-                        <li><a href="studentliv.html">Studentlivet</a></li>
-                        <li><a href="origo.html">Origo</a></li>
-                        <li><a href="sektioner.html">Sektioner</a></li>
-                        <li><a href="om_oss.html">Om oss</a></li>
+                        <li><Link to="/studentliv">Studentlivet</Link></li>
+                        <li><Link to="/origo">Origo</Link></li>
+                        <li><Link to="/sektioner">Sektioner</Link></li>
+                        <li><Link to="/om-oss">Om oss</Link></li>
                         <li className="search">🔍</li>
                     </ul>
                     
