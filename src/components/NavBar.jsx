@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import '../css/style.css'
 
-export default function Header() {
+export default function NavBar() {
     return(
-            <header className="hero" style={{backgroundColor: '#05401C'}}>                
+            <main>                
                 <nav className="navbar">
                     <div className="logo">
                         <Link to="/">
@@ -24,11 +25,6 @@ export default function Header() {
                         <span></span>
                     </div>
                 </nav>
-
-                <div className="hero-content">
-                    <h1>NTK</h1>
-                    <h2>AV STUDENTER, FÖR STUDENTER</h2>
-                </div>
-            </header>
+            </main>
     )
 }

@@ -1,10 +1,18 @@
 import '../css/index_style.css'
+import NavBar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 
 
 export default function Home(){
         return  (
         <main>
+            <header className="hero" >
+                <NavBar></NavBar>
+                <div className="hero-content">
+                    <h1>NTK</h1>
+                    <h2>AV STUDENTER, FÖR STUDENTER</h2>
+                </div>
+            </header>
             <div className="container-info">
                 <div className="container-text">
                     <h3>Umeå naturvetar- och teknologkår</h3>

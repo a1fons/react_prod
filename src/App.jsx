@@ -3,14 +3,12 @@ import Home from './pages/index';
 import './css/style.css'
 import Footer from './components/Footer';
 import Student from './pages/studentliv';
-import Header from './components/Header';
 import Origo from './pages/origo'
 
 export default function App() {
     return(
         <>
             <BrowserRouter>
-              <Header />
                 <Routes>
                   <Route path='/' element={<Home />} ></Route>
                   <Route path='/studentliv' element={<Student />} ></Route>
