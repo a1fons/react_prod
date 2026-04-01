@@ -19,6 +19,7 @@ img {
 }
 
 .navbar {
+    background: none;
     position: relative;
     z-index: 2;
     display: flex;

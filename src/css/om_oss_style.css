@@ -1,6 +1,6 @@
 .hero {
     height: 60vh;
-    background-image: url("images/fotanen.jpg");
+    background-image: url("/assets/fotanen.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

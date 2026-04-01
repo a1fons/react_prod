@@ -1,6 +1,6 @@
 .hero {
     height: 60vh;
-    background-image: url("images/Karhuset_Origo.jpg");
+    background-image: url("/assets/Karhuset_Origo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

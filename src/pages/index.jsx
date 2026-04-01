@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 export default function Home(){
         return  (
         <main>
-            <header className="hero" >
-                <NavBar></NavBar>
+            <header className="hero">
+                <NavBar/>
                 <div className="hero-content">
                     <h1>NTK</h1>
                     <h2>AV STUDENTER, FÖR STUDENTER</h2>

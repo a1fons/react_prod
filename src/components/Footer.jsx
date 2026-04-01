@@ -2,9 +2,9 @@ export default function Footer() {
     return(
         <main>
             <img id="footer_img" src="/assets/Sinus_vag_svart.png" alt="Sinus_vag"/>
-            <footer class="footer">
-                <div class="container-info-no-border">
-                    <div class="footer-info">
+            <footer className="footer">
+                <div className="container-info-no-border">
+                    <div className="footer-info">
                         <h3>Har du en fråga?</h3>
                         <p>Du får gärna kontakta oss på mejl. 
                         Tyvärr har vi inte har  möjlighet att svara på mejl 
@@ -33,7 +33,7 @@ export default function Footer() {
                         </p>
 
                     </div>
-                    <div class="footer-info">
+                    <div className="footer-info">
                         <h4>
                             Öppettider
                             Kontor: 

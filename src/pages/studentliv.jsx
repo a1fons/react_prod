@@ -1,10 +1,17 @@
 import '../css/studentliv_style.css'
+import NavBar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 
 
 export default function Student() {
     return (
         <main>
+        <header className="hero">
+            <NavBar/>
+            <div className="hero-content">
+                <h1>Studentlivet</h1>
+            </div>
+        </header>
         <div className="container-info">
             <div className="container-text">
                 <h3>Umeå naturvetar- och teknologkår</h3>

@@ -1,6 +1,6 @@
 .hero {
     height: 60vh;
-    background-image: url("images/campus_bild.png");
+    background-image: url("/assets/campus_bild.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
