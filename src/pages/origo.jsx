@@ -1,11 +1,11 @@
 import NavBar from '../components/Navbar';
 import '../css/origo_style.css'
 
-export default function Home(){
+export default function Origo(){
     return (
         <main>
-            <header className="hero" style="background-color:#031D44">
-            <NavBar className="nav-links-index"/>
+            <header className="hero-origo">
+            <NavBar page="#031D44"/>
             <div className="hero-content">
                 <h1>ORIGO</h1>
                 <h2>(0,0,0)</h2>
@@ -13,7 +13,7 @@ export default function Home(){
             
         </header>
 
-        <div className="container-info">
+        <div className="container-info-origo">
             <div className="container-text">
                 <h3>Kårhuset Origo</h3>
                 <p>Hos oss på Kårhuset Origo kan du boka allt från sittningar 
@@ -30,7 +30,7 @@ export default function Home(){
             <img  src="/assets/Karhuset_Origo.jpg" alt="bild"/>
         </div>
 
-        <div className="container-info">
+        <div className="container-info-origo">
             <img  src="/assets/kallender.png" alt="bild"/>
             <div className="container-text">
                 <h3>Öppettider</h3>

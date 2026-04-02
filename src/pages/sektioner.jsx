@@ -2,11 +2,11 @@ import NavBar from '../components/Navbar';
 import '../css/sektioner_style.css'
 
 
-export default function sektioner(){
+export default function Sektioner(){
     return (
         <main>
-        <header className="hero" style="background-color:#05401C">
-            <NavBar className="nav-links"/>
+        <header className="hero">
+            <NavBar page="#161616"/>
             <div className="hero-content">
                 <img src="/assets/sektioner.png" className="active" alt="sektioner"/>
                 <img src="/assets/CS.png" alt="CS"/>
@@ -22,7 +22,7 @@ export default function sektioner(){
 
         </header>
 
-        <div className="container-info">
+        <div className="container-info-sektioner">
             <div className="container-text">
                 <h3>Sektioner</h3>
                 <p>Under NTK finns det åtta sektioner, sektionerna består av ett par pogram. Det är sektionerna
@@ -32,7 +32,7 @@ export default function sektioner(){
             <img  src="/assets/Ntk_logo_text.png" alt="ntk_loga"/>
         </div>
 
-        <div className="container-info-no-border">
+        <div className="container-info-no-border-sektioner">
             <img src="/assets/CS.png" alt="CS_logo"/>
             <div className="container-text">
                 <h3 className="collaps">CS ▼</h3>
@@ -46,7 +46,7 @@ export default function sektioner(){
             </div>
         </div>
 
-        <div className="container-info-no-border">
+        <div className="container-info-no-border-sektioner">
             <img src="/assets/logo-sektion-ds.png" alt="design_logo"/>
             <div className="container-text">
                 <h3 className="collaps">Design ▼</h3>
@@ -59,7 +59,7 @@ export default function sektioner(){
             </div>
         </div>
 
-        <div className="container-info-no-border">
+        <div className="container-info-no-border-sektioner">
             <img src="/assets/logo-sektion-f.png" alt="F_logo"/>
             <div className="container-text">
                 <h3 className="collaps">F ▼</h3>
@@ -73,7 +73,7 @@ export default function sektioner(){
             </div>
         </div>
 
-        <div className="container-info-no-border">
+        <div className="container-info-no-border-sektioner">
             <img src="/assets/I-Sektionen.png" alt="I_logo"/>
             <div className="container-text">
                 <h3 className="collaps">I ▼</h3>
@@ -87,7 +87,7 @@ export default function sektioner(){
             </div>
         </div>
 
-        <div className="container-info-no-border">
+        <div className="container-info-no-border-sektioner">
             <img src="/assets/insekt-logga-ny-1-768x540.png" alt="Insekt_logo"/>
             <div className="container-text">
                 <h3 className="collaps">Insekt ▼</h3>
@@ -100,7 +100,7 @@ export default function sektioner(){
             </div>
         </div>
 
-        <div className="container-info-no-border">
+        <div className="container-info-no-border-sektioner">
             <img src="/assets/logo-sektion-MEGA-pxi8kruh7gdk5farbjm1dmt64yicx4xqiox0sahjmg.png" alt="Mega_logo"/>
             <div className="container-text">
                 <h3 className="collaps">Mega ▼</h3>
@@ -113,7 +113,7 @@ export default function sektioner(){
             </div>
         </div>
 
-        <div className="container-info-no-border">
+        <div className="container-info-no-border-sektioner">
             <img src="/assets/Sigma.svg" alt="Sigma_logo"/>
             <div className="container-text">
                 <h3 className="collaps">Sigma ▼</h3>
@@ -127,7 +127,7 @@ export default function sektioner(){
             </div>
         </div>
 
-        <div className="container-info-no-border">
+        <div className="container-info-no-border-sektioner">
             <img src="/assets/PhD.png" alt="PhD_logo"/>
             <div className="container-text">
                 <h3 className="collaps">PhD ▼</h3>

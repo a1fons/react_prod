@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../css/style.css'
 
-export default function NavBar() {
+export default function NavBar({page}) {
     return(               
             <nav className="navbar">
                 <div className="logo">
@@ -10,11 +10,11 @@ export default function NavBar() {
                     </Link>
                 </div>
 
-                <ul className="nav-links" id="navLinks">
+                <ul className="nav-links" id="navLinks" style={{background:page}}>
                     <li><Link to="/studentliv">Studentlivet</Link></li>
                     <li><Link to="/origo">Origo</Link></li>
                     <li><Link to="/sektioner">Sektioner</Link></li>
-                    <li><Link to="/om-oss">Om oss</Link></li>
+                    <li><Link to="/info">Om oss</Link></li>
                     <li className="search">🔍</li>
                 </ul>
                 

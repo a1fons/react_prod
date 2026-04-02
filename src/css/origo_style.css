@@ -1,4 +1,4 @@
-.hero {
+.hero-origo {
     height: 60vh;
     background-image: url("/assets/Karhuset_Origo.jpg");
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
     border-bottom: 7px solid  #000000; 
 }
 
-.hero::before {
+.hero-origo::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -50,7 +50,7 @@
     transition: color 0.25s ease;
 }
 
-.container-info{
+.container-info-origo{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -86,7 +86,7 @@
     place-self: center;
 }
 
-.container-info > img{
+.container-info-origo > img{
     width: auto;
     height: 265px;
     object-fit: cover;

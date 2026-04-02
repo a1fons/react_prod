@@ -4,8 +4,8 @@ import './css/style.css'
 import Footer from './components/Footer';
 import Student from './pages/studentliv';
 import Origo from './pages/origo'
-import sektioner from './pages/sektioner';
-import info from './pages/om_oss';
+import Sektioner from './pages/sektioner';
+import Info from './pages/om_oss';
 
 export default function App() {
     return(
@@ -15,8 +15,8 @@ export default function App() {
                   <Route path='/' element={<Home />} ></Route>
                   <Route path='/studentliv' element={<Student />} ></Route>
                   <Route path='/origo' element={<Origo />} ></Route>
-                  <Route path='/sektioner' element={<sektioner />} ></Route>
-                  <Route path='/info' element={<info />} ></Route>
+                  <Route path='/sektioner' element={<Sektioner />} ></Route>
+                  <Route path='/info' element={<Info />} ></Route>
                 </Routes>
             </BrowserRouter>
           <Footer />

@@ -56,7 +56,7 @@
     background-color: #161616;
 }
 
-.container-info{
+.container-info-sektioner{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -68,14 +68,14 @@
     border-bottom: 7px solid #2d2d2d;
 }
 
-.container-info > img{
+.container-info-sektioner > img{
     width: auto;
     height: 265px;
     object-fit: cover;
     place-self: center;
 }
 
-.container-info-no-border{
+.container-info-no-border-sektioner{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -86,7 +86,7 @@
     padding: 2rem 4rem;
 }
 
-.container-info-no-border > img{
+.container-info-no-border-sektioner > img{
     width: auto;
     height: 265px;
     object-fit: cover;

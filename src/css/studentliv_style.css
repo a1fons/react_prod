@@ -37,7 +37,7 @@
     -webkit-text-stroke: 3px #000000;
 }
 
-.container-info{
+.container-info-student{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -85,7 +85,7 @@
     border: 3px solid #000000;
 }
 
-.container-info > img{
+.container-info-student > img{
     float: right;
     width: auto;
     height: 300px;

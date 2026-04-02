@@ -1,4 +1,4 @@
-.hero {
+.hero-info {
     height: 60vh;
     background-image: url("/assets/fotanen.jpg");
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
     border-bottom: 7px solid  #000000; 
 }
 
-.hero::before {
+.hero-info::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -16,7 +16,7 @@
     z-index: 0;
 }
 
-.hero-content {
+.hero-info-content {
     position: relative;
     z-index: 2;
     height: calc(60vh - 180px);
@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.hero-content img{
+.hero-info-content img{
     height: auto;
     width: 250px;
 }

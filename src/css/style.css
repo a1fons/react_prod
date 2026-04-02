@@ -37,7 +37,6 @@ img {
 }
 
 .nav-links {
-    background: rgba(7, 42, 17, 0.55);
     list-style: none;
     display: flex;
     align-items: center;

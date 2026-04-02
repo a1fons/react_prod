@@ -7,7 +7,7 @@ export default function Home(){
         return  (
         <main>
             <header className="hero-index">
-                <NavBar className="nav-links-index"/>
+                <NavBar page="#05401C"/>
                 <div className="hero-content">
                     <h1>NTK</h1>
                     <h2>AV STUDENTER, FÖR STUDENTER</h2>

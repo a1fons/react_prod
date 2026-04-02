@@ -7,12 +7,12 @@ export default function Student() {
     return (
         <main>
         <header className="hero-student">
-            <NavBar className="nav-links-student"/>
+            <NavBar page="#031D44"/>
             <div className="hero-content">
                 <h1>Studentlivet</h1>
             </div>
         </header>
-        <div className="container-info">
+        <div className="container-info-student">
             <div className="container-text">
                 <h3>Umeå naturvetar- och teknologkår</h3>
                 <p>Studentlivet är ett stor del av ens studie tid och NTK har ett rikt student liv kopplat till sig.
@@ -27,7 +27,7 @@ export default function Student() {
             <img  src="/assets/caps.JPG" alt="bild"/>
         </div>
 
-        <div className="container-info">
+        <div className="container-info-student">
             <div className="container-text">
                 <h3>Mottagning</h3>
                 <p>Varje höst anordnar NTK en mottagning för alla nya studnter, varje pogram
@@ -43,7 +43,7 @@ export default function Student() {
             </video>
         </div>
 
-        <div className="container-info">
+        <div className="container-info-student">
             <div>
                 <h3>Ovveroller</h3>
                 <p>Studentpalget på umeå universitet är ovver roller. På detta sätt kan man se folks pogramtilhörighet samt 
@@ -155,7 +155,7 @@ export default function Student() {
                     nattklubb fredagar och  lördagar. Självklart så har vi ett stort och 
                     varierat utbud av mat och  dryck. </p>
                 <Link to="/origo">
-                    <button>Info</button>
+                    <button className="origo-button">Info</button>
                 </Link>
             </div>
             <img  src="/assets/sittning.jpg" alt="bild"/>
