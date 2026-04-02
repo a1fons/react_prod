@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import '../css/style.css'
+import '../utils/functions'
 
-export default function NavBar({page}) {
+export default function NavBar({backgroundcolor}) {
     return(               
             <nav className="navbar">
                 <div className="logo">
@@ -10,7 +11,7 @@ export default function NavBar({page}) {
                     </Link>
                 </div>
 
-                <ul className="nav-links" id="navLinks" style={{background:page}}>
+                <ul className="nav-links" id="navLinks" style={{background:backgroundcolor}}>
                     <li><Link to="/studentliv">Studentlivet</Link></li>
                     <li><Link to="/origo">Origo</Link></li>
                     <li><Link to="/sektioner">Sektioner</Link></li>

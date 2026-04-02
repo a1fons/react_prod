@@ -1,19 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     //carusell
-    const images = document.querySelectorAll(".hero-content img");
-    let currentIndex = 0;
 
-    function showSlide(index) {
-        images.forEach(img => img.classList.remove("active"));
-        images[index].classList.add("active");
-    }
-
-    function nextSlide() {
-        currentIndex = (currentIndex + 1) % images.length;
-        showSlide(currentIndex);
-    }
-
-    setInterval(nextSlide, 4000);
 
     //Hamburgermenu
     const hamburger = document.getElementById("hamburger");

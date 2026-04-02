@@ -1,13 +1,13 @@
 import '../css/studentliv_style.css'
 import NavBar from '../components/Navbar';
 import { Link } from 'react-router-dom';
-
+import '../utils/randomizer'
 
 export default function Student() {
     return (
         <main>
         <header className="hero-student">
-            <NavBar page="#031D44"/>
+            <NavBar backgroundcolor="#031D44"/>
             <div className="hero-content">
                 <h1>Studentlivet</h1>
             </div>

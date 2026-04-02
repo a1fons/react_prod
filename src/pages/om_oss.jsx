@@ -1,11 +1,12 @@
 import NavBar from '../components/Navbar';
 import '../css/om_oss_style.css'
+import '../utils/functions'
 
 export default function Info(){
     return (
         <main>
             <header className="hero-info">
-                <NavBar page="#05401C"/>
+                <NavBar backgroundcolor="#05401C"/>
                 <div className="hero-info-content">
                     <img src="/assets/Ntk_logo_text_vit.png" alt="NTK_logo_vit"/>
                 </div>

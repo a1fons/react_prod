@@ -1,22 +1,36 @@
 import NavBar from '../components/Navbar';
+import { useState, useEffect } from 'react';
 import '../css/sektioner_style.css'
+import '../utils/functions'
 
 
 export default function Sektioner(){
+    const [index, setIndex] = useState(0)
+    useEffect(() => {
+    
+        function nextSlide() {
+            setIndex( (prevIndex) => (prevIndex + 1)% 9 ) ;
+        }
+    
+        const interval = setInterval(nextSlide, 4000);
+        return () => clearInterval(interval);
+
+    }, []);
+
     return (
         <main>
         <header className="hero">
-            <NavBar page="#161616"/>
+            <NavBar backgroundcolor="#161616"/>
             <div className="hero-content">
-                <img src="/assets/sektioner.png" className="active" alt="sektioner"/>
-                <img src="/assets/CS.png" alt="CS"/>
-                <img src="/assets/logo-sektion-ds.png" alt="DS"/>
-                <img src="/assets/I-Sektionen.png" alt="I"/>
-                <img src="/assets/insekt-logga-ny-1-768x540.png" alt="Insekt"/>
-                <img src="/assets/logo-sektion-f.png" alt="F-sektionen"/>
-                <img src="/assets/Sigma.svg" alt="Sigma"/>
-                <img src="/assets/logo-sektion-MEGA-pxi8kruh7gdk5farbjm1dmt64yicx4xqiox0sahjmg.png" alt="Mega"/>
-                <img src="/assets/PhD.png" alt="PhD"/>
+                <img src="/assets/sektioner.png" className={index == 0 ? "active" : ""} alt="sektioner"/>
+                <img src="/assets/CS.png" className={index == 1 ? "active" : ""} alt="CS"/>
+                <img src="/assets/logo-sektion-ds.png" className={index == 2 ? "active" : ""} alt="DS"/>
+                <img src="/assets/I-Sektionen.png" className={index == 3 ? "active" : ""} alt="I"/>
+                <img src="/assets/insekt-logga-ny-1-768x540.png" className={index == 4 ? "active" : ""} alt="Insekt"/>
+                <img src="/assets/logo-sektion-f.png" className={index == 5 ? "active" : ""} alt="F-sektionen"/>
+                <img src="/assets/Sigma.svg" className={index == 6 ? "active" : ""} alt="Sigma"/>
+                <img src="/assets/logo-sektion-MEGA-pxi8kruh7gdk5farbjm1dmt64yicx4xqiox0sahjmg.png" className={index == 7 ? "active" : ""} alt="Mega"/>
+                <img src="/assets/PhD.png"  className={index == 8 ? "active" : ""} alt="PhD"/>
             </div>
 
 

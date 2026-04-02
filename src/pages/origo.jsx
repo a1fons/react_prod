@@ -1,11 +1,12 @@
 import NavBar from '../components/Navbar';
 import '../css/origo_style.css'
+import '../utils/functions'
 
 export default function Origo(){
     return (
         <main>
             <header className="hero-origo">
-            <NavBar page="#031D44"/>
+            <NavBar backgroundcolor="#031D44"/>
             <div className="hero-content">
                 <h1>ORIGO</h1>
                 <h2>(0,0,0)</h2>
