@@ -1,6 +1,6 @@
 import NavBar from '../components/Navbar';
 import '../css/origo_style.css'
-import '../utils/functions'
+
 
 export default function Origo(){
     return (
@@ -53,7 +53,7 @@ export default function Origo(){
             </div>
         </div>
 
-        <div className="container-info-no-border">
+        <div className="container-info-no-border-origo">
             <div className="container-text">
                 <h3>Kontakt</h3>
                 <p>Kårhuset Origo drivs av Umeå naturvetar- och teknologkår och är drygt 400 kvadratmeter stort. 

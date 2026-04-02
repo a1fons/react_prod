@@ -62,7 +62,7 @@
     border-bottom: 7px solid #6A90B3;
 }
 
-.container-info-no-border{
+.container-info-no-border-origo{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -79,7 +79,7 @@
     align-content: center;
 }
 
-.container-info-no-border > img{
+.container-info-no-border-origo > img{
     width: auto;
     height: 265px;
     object-fit: cover;

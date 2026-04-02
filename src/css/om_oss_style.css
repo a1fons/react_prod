@@ -51,7 +51,7 @@
     background-color: #05401C;
 }
 
-.container-info{
+.container-info-info{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -62,7 +62,7 @@
     padding: 2rem 4rem;
     border-bottom: 7px solid #10803B;
 }
-.container-info-no-border{
+.container-info-no-border-info{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -79,7 +79,7 @@
 
 }
 
-.container-info > img{
+.container-info-info > img{
     width: auto;
     height: 180px;
     object-fit: cover;
@@ -95,7 +95,7 @@
     text-decoration: underline;
 }
 
-.container-info-no-border > img{
+.container-info-no-border-info > img{
     width: auto;
     height: 265px;
     object-fit: cover;
@@ -129,6 +129,7 @@
 }
 
 .formular{
+    border: none;
     display: flex;
     place-self: center;
     flex-direction: column;

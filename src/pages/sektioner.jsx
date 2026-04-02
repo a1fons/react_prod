@@ -1,7 +1,7 @@
 import NavBar from '../components/Navbar';
 import { useState, useEffect } from 'react';
 import '../css/sektioner_style.css'
-import '../utils/functions'
+
 
 
 export default function Sektioner(){
@@ -49,8 +49,8 @@ export default function Sektioner(){
         <div className="container-info-no-border-sektioner">
             <img src="/assets/CS.png" alt="CS_logo"/>
             <div className="container-text">
-                <h3 className="collaps">CS ▼</h3>
-                <div className="content">  
+                <h3>CS</h3>
+                <div>  
                     <p>CS sektionen är sektionen för studenter som studerar program kopplade till data vetenskap.
                         Programen är Civilingenjörs pogramen i teknisk-dataventenskap och interaktion och desing samt 
                         kandidat pogramet i teknisk-dataventenskap.
@@ -63,8 +63,8 @@ export default function Sektioner(){
         <div className="container-info-no-border-sektioner">
             <img src="/assets/logo-sektion-ds.png" alt="design_logo"/>
             <div className="container-text">
-                <h3 className="collaps">Design ▼</h3>
-                    <div className="content">
+                <h3>Design </h3>
+                    <div>
                         <p>Design sektionen är sektionen för studenter som studerar program kopplade till industriel desing och 
                             arketektur. Programen är Arkitekt och industriel design.
                         </p>
@@ -76,8 +76,8 @@ export default function Sektioner(){
         <div className="container-info-no-border-sektioner">
             <img src="/assets/logo-sektion-f.png" alt="F_logo"/>
             <div className="container-text">
-                <h3 className="collaps">F ▼</h3>
-                <div className="content"> 
+                <h3>F </h3>
+                <div> 
                     <p>F sektionen är sektionen för studenter som studerar program kopplade till fysik.
                         Programen är Civilingenjörs pogramen i teknisk fysik, energi teknik och öppen ingåg samt 
                         basåret.
@@ -90,8 +90,8 @@ export default function Sektioner(){
         <div className="container-info-no-border-sektioner">
             <img src="/assets/I-Sektionen.png" alt="I_logo"/>
             <div className="container-text">
-                <h3 className="collaps">I ▼</h3>
-                <div className="content"> 
+                <h3>I </h3>
+                <div> 
                     <p>I sektionen är sektionen för studenter som studerar program kopplade till matematik.
                         Programen är Civilingenjörs pogramen i industriel ekonomi samt 
                         kandidat pogramet i matematik.
@@ -104,8 +104,8 @@ export default function Sektioner(){
         <div className="container-info-no-border-sektioner">
             <img src="/assets/insekt-logga-ny-1-768x540.png" alt="Insekt_logo"/>
             <div className="container-text">
-                <h3 className="collaps">Insekt ▼</h3>
-                <div className="content"> 
+                <h3>Insekt </h3>
+                <div> 
                     <p>Insekt sektionen är sektionen för studenter som studerar ett Högskoleingenjör pogram.
                         Programen är Byggteknik, masikt, energiteknik och elektronik och datateknik.
                     </p>
@@ -117,8 +117,8 @@ export default function Sektioner(){
         <div className="container-info-no-border-sektioner">
             <img src="/assets/logo-sektion-MEGA-pxi8kruh7gdk5farbjm1dmt64yicx4xqiox0sahjmg.png" alt="Mega_logo"/>
             <div className="container-text">
-                <h3 className="collaps">Mega ▼</h3>
-                <div className="content"> 
+                <h3>Mega </h3>
+                <div> 
                     <p>Mega sektionen är sektionen för studenter som studerar program kopplade till biologi, geologi och 
                         miljövetenskap. Programen är kanditatpogramen biologi och geologi samt Miljöteknik.
                     </p>
@@ -130,8 +130,8 @@ export default function Sektioner(){
         <div className="container-info-no-border-sektioner">
             <img src="/assets/Sigma.svg" alt="Sigma_logo"/>
             <div className="container-text">
-                <h3 className="collaps">Sigma ▼</h3>
-                <div className="content"> 
+                <h3>Sigma </h3>
+                <div> 
                     <p>Sigma sektionen är sektionen för studenter som studerar program kopplade till teknisk biologi.
                         Programen är Civilingenjörs pogramet i  bioteknik samt 
                         kandidat pogramet i Life science.
@@ -144,8 +144,8 @@ export default function Sektioner(){
         <div className="container-info-no-border-sektioner">
             <img src="/assets/PhD.png" alt="PhD_logo"/>
             <div className="container-text">
-                <h3 className="collaps">PhD ▼</h3>
-                <div className="content"> 
+                <h3>PhD </h3>
+                <div> 
                     <p>PhD sektionen är sektionen för alla forskarstudenter vid Teknisk-naturvetenskaplig fakultet.
                 </p>
                 </div> 

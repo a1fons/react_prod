@@ -102,14 +102,6 @@
     align-content: center;
 }
 
-.content{
-    display: none;
-}
-
-.collaps{
-    cursor: pointer;
-    font-size: 40px;
-}
 
 .origo-button{
     background-color: #6A90B3;

@@ -1,6 +1,6 @@
 import NavBar from '../components/Navbar';
 import '../css/om_oss_style.css'
-import '../utils/functions'
+
 
 export default function Info(){
     return (
@@ -12,7 +12,7 @@ export default function Info(){
                 </div>
             </header>
 
-            <div className="container-info">
+            <div className="container-info-info">
                 <div className="container-text">
                     <h3>NTK</h3>
                     <p>NTK är kåren för dig som studerar vid teknisk-naturvetenskaplig fakultet 
@@ -27,7 +27,7 @@ export default function Info(){
                 </div>
             </div>
 
-            <div className="container-info">
+            <div className="container-info-info">
                 <img src="/assets/Styrelsen.png" alt="bild"/>
                 <div className="container-text">
                     <h3>Styrelsen</h3>
@@ -45,7 +45,7 @@ export default function Info(){
                 <img src="/assets/ledarmotter.png" alt="ledarmotter"/>
             </div>
 
-            <div className="container-info">
+            <div className="container-info-info">
                 <img  src="/assets/Opperativagruppen.png" alt="Operativagruppen"/>
                 <div className="container-text">
                     <h3>Operativagruppen</h3>
@@ -57,7 +57,7 @@ export default function Info(){
                 </div>
             </div>
 
-            <div className="container-info">
+            <div className="container-info-info">
                 <div className="container-text">
                     <h3>FUM</h3>
                     <p>Kårfulmäktige är som NTKs riksdag och röstar in kårstyrelsen. FUM består
@@ -71,7 +71,7 @@ export default function Info(){
 
             </div>
             <div className="formular">
-                <form action="skicka.php" method="post"/>
+                <form action="skicka.php" method="post">
                     
                     <label for="namn">Namn:</label><br/>
                     <input type="text" id="namn" name="namn" required/><br/><br/>
@@ -84,7 +84,7 @@ export default function Info(){
                     
                     <input type="submit" value="Skicka"/>
                     
-                <form/>
+                </form>
             </div>
         </main>
     )

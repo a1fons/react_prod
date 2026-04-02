@@ -1,7 +1,6 @@
 import '../css/studentliv_style.css'
 import NavBar from '../components/Navbar';
 import { Link } from 'react-router-dom';
-import '../utils/randomizer'
 
 export default function Student() {
     return (
@@ -141,8 +140,7 @@ export default function Student() {
                 </table>
             </div>
         
-            <div className="bild" id="ovve_bild">
-            </div>
+            <img  src="/assets/Khaki.jpg" alt="bild"/>
         </div>
 
         <div className="container-info-no-border">

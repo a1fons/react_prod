@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../css/style.css'
-import '../utils/functions'
+
 
 export default function NavBar({backgroundcolor}) {
     return(               

@@ -1,8 +1,6 @@
 import NavBar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 import '../css/index_style.css'
-import '../utils/functions'
-
 
 export default function Home(){
         return  (

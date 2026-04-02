@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/index';
 import './css/style.css'
+import Home from './pages/index';
 import Footer from './components/Footer';
 import Student from './pages/studentliv';
 import Origo from './pages/origo'
