@@ -1,13 +1,13 @@
-import '../css/index_style.css'
 import NavBar from '../components/Navbar';
 import { Link } from 'react-router-dom';
+import '../css/index_style.css'
 
 
 export default function Home(){
         return  (
         <main>
-            <header className="hero">
-                <NavBar/>
+            <header className="hero-index">
+                <NavBar className="nav-links-index"/>
                 <div className="hero-content">
                     <h1>NTK</h1>
                     <h2>AV STUDENTER, FÖR STUDENTER</h2>

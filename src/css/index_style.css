@@ -1,4 +1,4 @@
-.hero {
+.hero-index {
     height: 60vh;
     background-image: url(/assets/campus_bild.png);
     background-repeat: no-repeat;
@@ -9,16 +9,16 @@
     border-bottom: 7px solid  #000000; 
 }
 
-.nav-links {
+.nav-links-index {
     background-color: #05401C;
 }
 
-.hero::before {
+.hero-index::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(7, 42, 17, 0.30);
-    z-index: 0;
+    background: rgba(7, 42, 17, 0.55);
+    z-index: 2;
 }
 
 .hero-content {

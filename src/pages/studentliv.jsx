@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 export default function Student() {
     return (
         <main>
-        <header className="hero">
-            <NavBar/>
+        <header className="hero-student">
+            <NavBar className="nav-links-student"/>
             <div className="hero-content">
                 <h1>Studentlivet</h1>
             </div>
